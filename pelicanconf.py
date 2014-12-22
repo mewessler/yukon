@@ -23,21 +23,24 @@ AUTHOR_FEED_RSS = None
 #User-Added
 THEME = '../pelican-bootstrap3/'
 STATIC_PATHS = ['images']
-DISPLAY_CATEGORIES_ON_MENU = False
-SITE_LOGO = 'images/psu.gif'
-INDEX_SAVE_AS = 'blog_index.html'
 
-MENU_ITEMS = (('Blog','/blog_index.html'))
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+#SITE_LOGO = 'images/psu.gif'
+#BANNER = '/path/to/banner.png'
+#BANNER_SUBTITLE = 'This is my subtitle'
+#BANNER_ALL_PAGES = True
+
+#INDEX_SAVE_AS = '/pages/about.html'
+INDEX_SAVE_AS = 'blog_index.html'
+MENUITEMS = (('Blog','/blog_index.html'),('Resume','/pages/resume.html'),('About','/pages/about.html'))
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 

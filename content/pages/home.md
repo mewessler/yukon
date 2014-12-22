@@ -1,4 +1,6 @@
 Title: Home
-URL: 
+slug: home
+URL:
 save_as: index.html
 
+Welcome.
