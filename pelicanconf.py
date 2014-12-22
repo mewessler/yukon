@@ -36,6 +36,11 @@ DISPLAY_PAGES_ON_MENU = False
 INDEX_SAVE_AS = 'blog_index.html'
 MENUITEMS = (('Blog','/blog_index.html'),('Resume','/pages/resume.html'),('About','/pages/about.html'))
 
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+DISPLAY_TAGS_ON_SIDEBAR = False
+HIDE_SIDEBAR = True
+
 # Blogroll
 #LINKS = ()
 
