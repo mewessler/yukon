@@ -3,4 +3,4 @@ slug: home
 URL:
 save_as: index.html
 
-Welcome.
+Welcome. Under construction.

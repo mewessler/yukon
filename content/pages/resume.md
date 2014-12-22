@@ -1,4 +1,4 @@
 Title: Resume
 slug: resume
 
-Work in progress.
+Resume. Under construction.
