@@ -28,9 +28,9 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
 #SITE_LOGO = 'images/psu.gif'
-#BANNER = '/path/to/banner.png'
-#BANNER_SUBTITLE = 'This is my subtitle'
-#BANNER_ALL_PAGES = True
+BANNER = 'images/banner2.gif'
+BANNER_SUBTITLE = 'Plymouth State Meteorology'
+BANNER_ALL_PAGES = True
 
 #INDEX_SAVE_AS = '/pages/about.html'
 INDEX_SAVE_AS = 'blog_index.html'
